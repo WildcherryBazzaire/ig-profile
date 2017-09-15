@@ -1,5 +1,14 @@
+@keyframes popping {
+  0% {width:300px; height:300px;}
+  100%{width: 325px; height: 325px;}
+}
+
 body {
   background-color: white;
+}
+
+header {
+  text-align: center;
 }
 
 #container {
@@ -9,10 +18,16 @@ body {
   border: 3px solid #DDDDDD;
 }
 
+#username {
+  font-family: 'Bungee Shade', cursive;
+}
+
 #top-bar {
   height:145px;
   background-image: url('images/Top-Bar.png');
   background-repeat: no-repeat;
+  padding-top: 1.5%;
+  padding-left: 2%;
 }
 
 #follower-count {
@@ -29,16 +44,59 @@ body {
   ;
 }
 
+#follower-count > p{
+  position: relative;
+  display: inline-block;
+  bottom: 49%;
+}
+
+#post {
+  margin-left: 14%;
+  font-size: 300%;
+}
+
+#followers {
+  font-size: 200%;
+  margin-left: 7.5%;
+}
+
+#following {
+  font-size: 300%;
+  margin-left: 7%;
+}
+
 #phto-bar {
   height: 140px;
   background-image: url("images/Photo-Bar.png");
 }
 
+#bio {
+  padding:5% 0% 5% 3%;
+  font-size: 150%;
+  font-family: 'Raleway', sans-serif;
+}
+
+#pictures {
+  display: inline-block;
+  /*padding-left: 8%;*/
+  text-align: center;
+}
+
 .ig-image {
+  transition-timing-function: ease-in-out;
+  transition: width,height;
+  transition-duration: 1s;
   display: inline-block;
   width: 300px;
   height: 300px;
+  position: relative;
   margin: 0 auto;
+
+}
+
+.ig-image:hover {
+  width: 325px;
+  height: 325px;
 }
 
 #bottom-bar {
