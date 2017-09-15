@@ -31,13 +31,14 @@ header {
   font-family: 'Bungee Shade', cursive;
   animation-name: rainbow;
   animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
 #top-bar {
   height:145px;
   background-image: url('images/Top-Bar.png');
   background-repeat: no-repeat;
-  padding-top: 1.5%;
+  padding-top: 1%;
   padding-left: 2%;
 }
 
@@ -48,21 +49,20 @@ header {
 
 #profile-picture {
   border-radius: 50%;
-  height: 255px;
-  width: 255px;
-  margin-left: 5.43%;
-  margin-top: 4.9%
-  ;
+  height: 254px;
+  width: 254px;
+  margin-left: 5.54%;
+  margin-top: 4.99%;
 }
 
 #follower-count > p{
   position: relative;
   display: inline-block;
-  bottom: 49%;
+  margin-top: 8%;
 }
 
 #post {
-  margin-left: 14%;
+  margin-left: 29%;
   font-size: 300%;
 }
 
