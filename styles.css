@@ -56,24 +56,24 @@ header {
 }
 
 #follower-count > p{
-  position: relative;
+  position: absolute;
   display: inline-block;
   margin-top: 8%;
 }
 
 #post {
-  margin-left: 29%;
+  margin-left: 12%;
   font-size: 300%;
 }
 
 #followers {
   font-size: 200%;
-  margin-left: 7.5%;
+  margin-left: 21%;
 }
 
 #following {
   font-size: 300%;
-  margin-left: 7%;
+  margin-left: 47%;
 }
 
 #phto-bar {
